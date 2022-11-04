@@ -1,4 +1,4 @@
-package BLJR;
+package JurnalModul3;
 
 import java.util.Scanner;
 
@@ -26,16 +26,6 @@ public class Main1 {
         System.out.println("Urutkan Berdasarkan Harga:");
         data.insertionSort(data.getDataSize());
         data.printAll();
-
-        Scanner input = new Scanner(System.in);
-        String Param;
-        System.out.print("Masukkan Nama Barang: ");
-        Param=input.nextLine();
-        data.sequentialSearch(Param);
-
-        System.out.print("Masukkan Nama Barang: ");
-        Param=input.nextLine();
-        data.sequentialSearch(Param);
 
     }
 }

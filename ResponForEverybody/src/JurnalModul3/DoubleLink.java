@@ -1,7 +1,4 @@
-package BLJR;
-
-import hhh.Inv;
-import hhh.LinkedList;
+package JurnalModul3;
 
 public class DoubleLink {
     private class Node{

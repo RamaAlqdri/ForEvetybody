@@ -1,4 +1,4 @@
-package BLJR;
+package JurnalModul3;
 
 import java.util.Scanner;
 
@@ -23,6 +23,14 @@ public class Main2 {
 
         Scanner input = new Scanner(System.in);
         String Param;
+        System.out.print("Masukkan Nama Barang: ");
+        Param=input.nextLine();
+        data.sequentialSearch(Param);
+
+        System.out.print("Masukkan Nama Barang: ");
+        Param=input.nextLine();
+        data.searchBinary(Param);
+
         System.out.print("Masukkan Nama Barang: ");
         Param=input.nextLine();
         data.sequentialSearch(Param);

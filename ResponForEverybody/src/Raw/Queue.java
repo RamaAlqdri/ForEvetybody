@@ -37,6 +37,9 @@ public class Queue {
             return temp;
         }
     }
+    public Object peek(){
+        return Tail.value;
+    }
     public void printAll(){
         Node current = Head;
         while(current!=null){

@@ -4,7 +4,6 @@ public class Doubly {
     private class Node{
         int angka;
         Node(int angka){
-
             this.angka=angka;
         }
         Node next=null;
